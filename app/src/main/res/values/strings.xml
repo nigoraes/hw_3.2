@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">hw_3.2</string>
+    <string name="tv_zero">0</string>
+    <string name="tv_minus_one">-1</string>
+    <string name="tv_plus_one">+1</string>
+    <string name="cancellation">cancellation</string>
+</resources>

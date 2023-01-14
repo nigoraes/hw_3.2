@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+
+    <TextView
+        android:id="@+id/tv_zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/numerator_40dp"
+        android:text="@string/tv_zero"
+        android:textColor="@color/black"
+        android:textSize="@dimen/numerator_80sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_zero"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/numerator_80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_minus_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_200"
+            android:text="@string/tv_minus_one"
+            android:textSize="@dimen/numerator_40sp" />
+
+        <Button
+            android:id="@+id/btn_cancellation"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/numerator_5dp"
+            android:layout_marginRight="@dimen/numerator_5dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/cancellation"
+            android:textSize="@dimen/numerator_20dp" />
+
+        <Button
+            android:id="@+id/btn_plus_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_200"
+            android:text="@string/tv_plus_one"
+            android:textSize="@dimen/numerator_40sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
